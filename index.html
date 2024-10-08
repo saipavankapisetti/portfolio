@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Profile Page of Sanjay">
+        <title>Saipavan's  Profile</title>
+        <link rel="icon" href="icons/loho.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <script src="script.js" defer></script>
+    </head>
+
+
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="nav-logo">
+                    <img src="img/image.png" alt="SAIPAVAN">
+                </a>
+                <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+            <div class="nav-menu">           
+            <!--<a href="index.html">Home</a>
+                <a href="contact.html">Contact Me</a> -->
+                <a href="res/saiPavan_fresherresume.pdf" class="resume-button" download>Download Resume</a>
+                <div id="dark-mode-toggle" class="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <img src="img/20A21A0493.webp" alt="Sai pic">
+            <h1>Hello, I am Sai Pavan, a <span class="about-me"></span></h1>
+            <p>Passionate about bridging technology and user needs, I am a web developer with a robust foundation in computer science and a zeal for continuous learning. Specializing in creating seamless, intuitive digital experiences, my expertise spans front-end and back-end development, including technologies and tools like aws ,docker and bubble.io. I thrive on problem-solving and innovation, aiming to contribute to projects that push technological boundaries. Eager to collaborate with like-minded teams, I am on a quest to develop impactful web solutions that drive success and foster growth.</p>
+        </header>
+
+        <div class="content-container">
+
+            <section>
+                <h2>My Technical Skills</h2>
+                <div class="skills-list">
+                    <ul class="skills-list">
+                        <li>Web Development</li>
+                        <li>Python Developer</li>
+                        <li>Cloud Engineer</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="horizontal-scroll">
+                <div class="icon-container">
+                    <img src="icons/python.ico" alt="Icon 1">
+                    <img src="icons/aws.ico" alt="Icon 2">
+                    <img src="icons/sql.ico" alt="Icon 3">
+                    <img src="icons/mysql.ico" alt="Icon 4">
+                    <img src="icons/git.ico" alt="Icon 5">
+                    <img src="icons/github.ico" alt="Icon 6">
+                    <img src="icons/tml.ico" alt="Icon 7">
+                    <img src="icons/css.ico" alt="Icon 8">
+                    <img src="icons/docker.ico" alt="Icon 9">
+                    <img src="icons/excel.ico" alt="Icon 10">
+                </div>
+            </section>
+            <hr>
+
+            <section id="programming-languages">
+                <h2>Programming Languages</h2>
+                <div class="skill">
+                    <p>PYTHON</p>
+                    <div class="progress-bar" data-progress="70"></div>
+                </div>
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress-bar" data-progress="70"></div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress-bar" data-progress="50"></div>
+                </div>
+            </section>
+            <hr>    
+
+            <section>
+                <h2>My Projects</h2>
+                <p>Take a look at some of my works.</p>
+                <section id="projects">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/automated.png" alt="Project 1">
+                            <h3>Automated Deployment pipeline</h3>>
+                            <p>Description of Project: Automated Deployemnt pipeline using Jenkins and Aws
+                            </p>
+                            <a href="https://github.com/saipavankapisetti/Automated_Deployment_pipeline.git" class="btn know-more" data-modal-target="#projectModal1">Know More</a>
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/container.avif" alt="Project 1">
+                            <h3>Container Orchestration Platform</h3>
+                            <p>container orchestration platform using dockerswarm .Deployed an  python flask application</p>
+                            <a href="#" class="btn know-more" data-modal-target="#projectModal2">Know More</a>
+
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/paddy.png" alt="Project 1">
+                            <h3>Paddy Calculator</h3>
+                            <p>Developed a simple front end paddy calculator application for farmers.Where farmers easily estimate the crop through our application and easily get their revenue and all</p>
+                            <a href="#" class="btn know-more" data-modal-target="#projectModal3">Know More</a>
+                        </div>
+                    </div>                        
+            
+                    <!-- Repeat the above structure for each project -->
+                </section>
+                <!--<p><a href="6_project.html">Project 1</a> | <a href="https://www.pantechsolutions.net/deep-learning-based-food-calorie-estimation-method-in-dietary-assessment">Project 2</a></p>-->
+            </section>
+            <hr>
+            
+            <section>
+                <h2>Contact Me</h2>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="81c0f49d-5550-4405-b9e4-2b5592ce6e46">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                    </div>
+            
+                    <button type="submit">Send Message</button>                
+                </form>
+            </section>
+            <hr>
+
+            <section>
+                <h2>Contact Information</h2>
+                <p>Let's connect!</p>
+                <a href="mailto:saipavankapisetti@gmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/sai-pavan-kapisetti-a4737b223" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a><br><br><br>   
+            </section>
+
+
+        </div>
+        <footer>
+            <p>&copy; 2024 Sai Pavan kapisetti </p>
+        </footer>
+
+
+        <!-- Project Information Modal -->
+        <!-- Project Information Modal -->
+        <div id="projectModal1" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Automated Deployment Pipeline</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>Short Project Overview.</p>
+                            <a href="https://github.com/saipavankapisetti/Automated_Deployment_pipeline.git" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="adp/adp1.png" alt="Project Image 1">
+                                    <img src="adp/adp2.png" alt="Project Image 2">
+                                    <img src="adp/adp3.png" alt="Project Image 3">
+                                    <img src="adp/adp4.png" alt="project4">
+                                    <img src="adp/adp5.png" alt="projec5">
+                                    <img src="adp/adp6.png" alt="project6">
+                                    <img src="adp/adp7.png" alt="project7">
+                                    <img src="adp/adp8.png" alt="projec8">
+                                    <img src="adp/adp9.png" alt="project9">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <p>Set up an automated deployment pipeline with Jenkins, GitHub, and EC2. Jenkins monitors GitHub for commits, builds the code, runs tests, and deploys to EC2 instances. Successful tests lead to deployment on staging, followed by production. Notifications update the team at each step, ensuring reliable releases.</p>
+                        </div>
+                        <div class="column">
+                            <h3>Project Documentation</h3>
+                            <iframe src="adp/adpdocumentTation.pdf" width="100%" height="1000px"></iframe>
+                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div id="projectModal2" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Container orchestration Platform</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>Short Project Overview</p>
+                            <a href="https://github.com/saipavankapisetti/containerorchestration.git" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="container/cn1.png" alt="Project Image 4">
+                                    <img src="container/cn2.png" alt="Project Image 5">
+                                    <img src="container/cn3.png" alt="Project Image 6">
+                                    <img src="container/cn4.png" alt="Project Image 4">
+                                    <img src="container/cn5.png" alt="Project Image 5">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <p>Docker Swarm is a container orchestration platform that enables the management and deployment of Docker containers across a cluster of machines. It simplifies the orchestration process by providing native clustering and scheduling capabilities, allowing developers to manage multiple containers as a single entity. Docker Swarm ensures high availability, load balancing, and scalability, making it easier to deploy, update, and maintain containerized applications in a distributed environment</p>
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="container/documentation.pdf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="projectModal3" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Project Title 3</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>Short Project Overview</p>
+                            <a href="https://github.com/saipavankapisetti/Paddy_calculator.git" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="img/paddy.png" alt="Project Image 7">
+                                    <img src="img/paddy.png" alt="Project Image 8">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>Develop a python flask application</li>
+                                <li>Paddy calculator app for farmers user friendly</li>
+                                <li>easily estimates paddy prices and bags</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>  
+
+    </body>
+</html>
